@@ -1,0 +1,71 @@
+.hero-section {
+            padding: 40px 0 20px 0;
+            text-align: center;
+        }
+        .feature-card {
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            height: 100%;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        /* Updated icon styling */
+        .icon-circle {
+            width: 60px;
+            height: 60px;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+        }
+        h1.main-title {
+            margin-top: 20px;
+            text-align: center;
+            font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        .feature-box {
+            background-color: rgba(255, 255, 255, 1) !important;
+            transition: transform 0.3s ease;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+        .hero-lead-small {
+            font-size: 0.9rem; /* Slightly smaller text for better fit */
+            color: #333;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        .border-top.border-4 {
+            border-top-width: 6px !important;
+        }
+        .hero-lead {
+            font-weight: 600;
+            color: #000;
+            background: rgba(255, 255, 255, 0.6);
+            padding: 8px 20px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 20px !important;
+        }
+        h1.first{
+        text-align: center;
+        color: blue;
+        font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+       }
+       .heads{
+        color: green;
+       }
+       #anchor{
+            text-decoration: none;
+       }
+       .intro{
+        color: green;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
